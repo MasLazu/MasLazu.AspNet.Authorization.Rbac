@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using MasLazu.AspNet.Framework.EntityFrameworkCore.Data;
+using MasLazu.AspNet.Framework.EfCore.Data;
 using MasLazu.AspNet.Authorization.Rbac.Domain.Entities;
 
 namespace MasLazu.AspNet.Authorization.Rbac.EfCore.Data;
