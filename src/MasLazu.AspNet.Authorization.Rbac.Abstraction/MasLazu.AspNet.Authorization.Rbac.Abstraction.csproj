@@ -4,10 +4,27 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>MasLazu.AspNet.Authorization.Rbac.Abstraction</PackageId>
+    <Authors>MasLazu</Authors>
+    <Company>MasLazu</Company>
+    <Description>Abstraction layer for MasLazu ASP.NET Authorization RBAC. Contains interfaces, DTOs, and contracts for role-based access control.</Description>
+    <PackageTags>aspnetcore;authorization;rbac;roles;permissions;interfaces;dto</PackageTags>
+    <RepositoryUrl>https://github.com/maslazu/MasLazu.AspNet.Authorization.Rbac</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/maslazu/MasLazu.AspNet.Authorization.Rbac</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See RELEASES.md for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MasLazu.AspNet.Framework.Application" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

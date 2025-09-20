@@ -4,6 +4,19 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>MasLazu.AspNet.Authorization.Rbac.Endpoint</PackageId>
+    <Authors>MasLazu</Authors>
+    <Company>MasLazu</Company>
+    <Description>API endpoints for MasLazu ASP.NET Authorization RBAC. Contains FastEndpoints implementation for role and permission management.</Description>
+    <PackageTags>aspnetcore;authorization;rbac;fastendpoints;api;rest;endpoints</PackageTags>
+    <RepositoryUrl>https://github.com/maslazu/MasLazu.AspNet.Authorization.Rbac</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/maslazu/MasLazu.AspNet.Authorization.Rbac</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See RELEASES.md for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +26,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasLazu.AspNet.Authorization.Rbac.Abstraction\MasLazu.AspNet.Authorization.Rbac.Abstraction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

@@ -4,6 +4,19 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Properties -->
+    <PackageId>MasLazu.AspNet.Authorization.Rbac.EfCore</PackageId>
+    <Authors>MasLazu</Authors>
+    <Company>MasLazu</Company>
+    <Description>Entity Framework Core implementation for MasLazu ASP.NET Authorization RBAC. Contains DbContext, configurations, and data access layer.</Description>
+    <PackageTags>aspnetcore;authorization;rbac;efcore;entityframework;database;orm</PackageTags>
+    <RepositoryUrl>https://github.com/maslazu/MasLazu.AspNet.Authorization.Rbac</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/maslazu/MasLazu.AspNet.Authorization.Rbac</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See RELEASES.md for release notes.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +25,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasLazu.AspNet.Authorization.Rbac.Domain\MasLazu.AspNet.Authorization.Rbac.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
